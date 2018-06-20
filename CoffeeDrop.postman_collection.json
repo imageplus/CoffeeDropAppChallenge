@@ -1,0 +1,92 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CoffeeDrop",
+		"_postman_id": "cc3224a4-93a0-c942-3c84-03b696fae1c0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetNearestLocation",
+			"request": {
+				"url": {
+					"raw": "{{url}}/api/location/postcode?postcode=CV14JB",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"location",
+						"postcode"
+					],
+					"query": [
+						{
+							"key": "postcode",
+							"value": "CV14JB",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Returns the address and opening times of the nearest CoffeeDrop location"
+			},
+			"response": []
+		},
+		{
+			"name": "GetLocations",
+			"request": {
+				"url": "{{url}}/api/locations",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Returns a paginated collection of all CoffeeDrop Locations"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewLocation",
+			"request": {
+				"url": "{{url}}/api/location",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"postcode\": \"CV313PP\",\n      \"opening_times\": {\"monday\" : \"09:00\", \"tuesday\" : \"09:00\", \"saturday\" : \"08:30\"},\n      \"closing_times\": {\"monday\" : \"19:00\", \"tuesday\" : \"19:00\", \"saturday\" : \"18:30\"}\n}\n\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CalculateCashback",
+			"request": {
+				"url": "{{url}}/api/products/quote",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"Ristretto\": 10,\n      \"Espresso\": 100,\n      \"Lungo\":30\n}\n\n"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
