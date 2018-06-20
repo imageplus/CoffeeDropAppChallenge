@@ -6,18 +6,30 @@ A brand new start up, CoffeeDrop, have spotted a gap in the market to build an A
 
 ### Specification 
 0.1 The specification shall be used as follows - Shall requirements are core functionality, Should are desired functionality and Could is optional functionality.
+
 1.1 The application shall be for either iOS or Android
+
 1.2 The application shall run on the latest version of either OS
+
 1.3 The developer shall take as little or as long time as the applicant desires to develop
+
 1.3.1 The developer shall not be expected to spend any more than 4 hours on the project.
+
 1.3.2 The developer could spend as long as he/she liked however.
 
+
 2.1 The application shall have a splash screen while it loads
+
 2.2 The application shall allow connected users to view a map with the CoffeeDrop locations marked upon it
+
 2.2.1 This map and locations could work offline
+
 2.2.1.1 This could be facilitated by appropriate caching
+
 2.2.2 A user shall be able to "click through" to a more details screen displaying the opening hours for a specific location
+
 2.3 The application shall allow connected users to enter a postcode and show the closest CoffeeDrop locations as the crow flies
+
 2.4 The application shall allow users to query the amount of cashback by entering a quantity for each of the three possible "sizes" of pod
   1) Ristretto
   2) Espresso
