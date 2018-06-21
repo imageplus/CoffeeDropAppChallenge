@@ -50,6 +50,8 @@ A brand new start up, CoffeeDrop, have spotted a gap in the market to build an A
 - There is no authentication for the API
 - There is rate limiting of no more than 90 requests per 10s on the API
 - There is inherited rate limiting of one request per second on the "postcode" request as this will call the free postcode.io API behind the scenes.
+- The repository for the API specification is https://github.com/imageplus/CoffeeDropAPIChallenge
+- The repository containing the code for the API is this implementation of the API challenge https://github.com/iHazzam/CoffeeDrop
 
  
  ## Submission Instructions
