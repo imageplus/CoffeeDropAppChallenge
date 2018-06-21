@@ -28,7 +28,7 @@ A brand new start up, CoffeeDrop, have spotted a gap in the market to build an A
 
 2.2.2 A user shall be able to "click through" to a more details screen displaying the opening hours for a specific location
 
-2.3 The application shall allow connected users to enter a postcode and show the closest CoffeeDrop locations as the crow flies
+2.3 The application shall allow connected users to enter a postcode and show the closest CoffeeDrop location as the crow flies
 
 2.4 The application shall allow users to query the amount of cashback by entering a quantity for each of the three possible "sizes" of pod
   1) Ristretto
